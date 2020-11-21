@@ -1,4 +1,4 @@
 # LinkIcon
 
-Remove this icon
+Remove this icon<br>
 <img src="Link Icon.png">
