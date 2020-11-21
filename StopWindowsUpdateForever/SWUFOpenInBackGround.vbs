@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run """C:/Program Files/StopWindowsUpdateForever/StopWindowsUpdateForever.exe""",0,True

@@ -1,0 +1,13 @@
+%SystemRoot%\System32\SHELL32.dll
+%SystemRoot%\System32\imageres.dll
+%SystemRoot%\System32\moricons.dll
+%SystemRoot%\System32\powercpl.dll
+%SystemRoot%\System32\compstui.dll
+%SystemRoot%\System32\DDORes.dll
+%SystemRoot%\System32\ieframe.dll
+%SystemRoot%\System32\mmcndmgr.dll
+%SystemRoot%\System32\netshell.dll
+%SystemRoot%\System32\pifmgr.dll
+%SystemRoot%\System32\pnidui.dll
+%SystemRoot%\System32\wmploc.dll
+%SystemRoot%\System32\wpdshext.dll

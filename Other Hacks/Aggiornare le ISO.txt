@@ -1,0 +1,30 @@
+// selezionare l'archivio di Windows per avere informazioni sulle versioni
+Dism /Get-WIMInfo /WimFile:C:\SP2\sources\install.wim
+
+// Creare una cartella dove mettere successivamente il sistema estratto
+md C:\SP2\offline
+
+// Seleziona la versione e specifica dove estrarre il file
+Dism /Mount-WIM /WimFile:C:\SP2\sources\install.wim /Name:"Windows 7 PROFESSIONAL" /MountDir:C:\SP2\offline
+
+// Installa gli aggiornamenti dalla cartella UPDATES
+Dism /Image:C:\SP2\offline /Add-Package /PackagePath:C:\UPDATES\
+
+// Smonta tutto e ricrea il .wim
+Dism /Unmount-WIM /MountDir:C:\SP2\offline /Commit
+
+
+Optional:
+
+// crea il file ISO
+cd C:\UPDATES
+oscdimg.exe -m -u2 -bC:\SP2\boot\etfsboot.com C:\SP2\ C:\UPDATES\Windows 7 SP2.iso
+
+
+
+
+
+dism /remount-wim /mountdir:C:\SP2\offline
+
+// Solo su Windows 8+ - Pulisce il sistema dai file temporanei degli aggiornamenti
+Dism.exe /image:C:\SP2\offline /Cleanup-Image /StartComponentCleanup /ResetBase
