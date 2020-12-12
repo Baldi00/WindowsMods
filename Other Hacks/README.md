@@ -10,6 +10,7 @@
   <li>JPG Wallpaper Max Quality: set jpg import quality for wallpapers to 100</li>
   <li>Product Key Windows 7: well, I don't think this needs explanations...</li>
   <li>Remove 3DObjects Folder: remove the useless and asymmetrical 3DObjects folder in Explorer</li>
+  <li>ResetScreenshotIndex: set to 1 the incremental number of screenshot saved in Images</li>
   <li>Some System Icons Paths: paths of dlls containing system icons, in case you want to change some icons</li>
   <li>View Licence Expire Date: it shows the end of you Windows licence, run as administrator
 </ul>
