@@ -1,0 +1,6 @@
+Open regedit and go to:
+
+HKEY_CURRENT_USER\Control Panel\Colors
+HKEY_CURRENT_USER\Control Panel\Desktop\Colors
+
+Edit string values with rgb color values
