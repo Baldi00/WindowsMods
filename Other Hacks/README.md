@@ -3,6 +3,7 @@
 <ul>
   <li>Aggiornare le ISO: guide for update Windows ISO
   <li>Change jfif to jpg: sometimes when you drag and drop jpg images from the Web the exstension changes to jfif, this solve the problem</li>
+  <li>Edit Windows Colors: change some colors like selection rectangle or buttons colors</li>
   <li>Enable Open cmd Here: add "Open cmd Here" in contex menu in every folder</li>
   <li>Enable Photo Viewer: enable the possibility to choose the old Windows 7 photo viewer</li>
   <li>Fix AutoPlay Not Working: when you plag something and nothing happens</li>
