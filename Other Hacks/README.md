@@ -2,6 +2,7 @@
 
 <ul>
   <li>Aggiornare le ISO: guide for update Windows ISO
+  <li>AndroidMusicCacheFolder: delete this folder to refresh album covers, I didn't want to create a repository on purpose for Android</li>
   <li>Change jfif to jpg: sometimes when you drag and drop jpg images from the Web the exstension changes to jfif, this solve the problem</li>
   <li>Edit Windows Colors: change some colors like selection rectangle or buttons colors</li>
   <li>Enable Open cmd Here: add "Open cmd Here" in contex menu in every folder</li>
