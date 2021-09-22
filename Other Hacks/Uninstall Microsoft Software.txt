@@ -1,0 +1,77 @@
+Open Powershell whit admin priviledge and execute these commands (these are examples, you can uninstall other packages with the same command and another package name)
+
+See installed packages
+Get-AppxPackage | Select Name, PackageFullName
+
+
+UNINSTALL COMMAND:
+Get-AppxPackage <package_name> | Remove-AppxPackage
+
+Uninstall 3D Builder application:
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+
+Uninstall the Alarms and Clock app:
+Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+
+Uninstall the Calculator application:
+Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+
+Remove the Calendar and Mail app:
+Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+
+Uninstall the Camera app:
+Get-AppxPackage *windowscamera* | Remove-AppxPackage
+
+Uninstall the application Improve your Office (Get Office):
+Get-AppxPackage *officehub* | Remove-AppxPackage
+
+Uninstall the Pre-Vision application (Get Skype):
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+
+Uninstall the Get Started application:
+Get-AppxPackage *getstarted* | Remove-AppxPackage
+
+Uninstall the Groove Music application (Groove Music):
+Get-AppxPackage *zunemusic* | Remove-AppxPackage
+
+Uninstall the Maps application:
+Get-AppxPackage *windowsmaps* | Remove-AppxPackage
+
+Uninstall the Microsoft Solitaire Collection application:
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+
+Uninstall Money app:
+Get-AppxPackage *bingfinance* | Remove-AppxPackage
+
+Uninstall the Movies & TV application:
+Get-AppxPackage *zunevideo* | Remove-AppxPackage
+
+Uninstall the News app:
+Get-AppxPackage *bingnews* | Remove-AppxPackage
+
+Uninstall OneNote app:
+Get-AppxPackage *onenote* | Remove-AppxPackage
+
+Uninstall People app:
+Get-AppxPackage *people* | Remove-AppxPackage
+
+Uninstall Phone Companion app:
+Get-AppxPackage *windowsphone* | Remove-AppxPackage
+
+Uninstall Photos app:
+Get-AppxPackage *photos* | Remove-AppxPackage
+
+Uninstall the Sports app:
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+
+Uninstall the Voice Recorder application:
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+
+Uninstall the Weather app:
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+
+Uninstall the Xbox app:
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
+
+Uninstall the Microsoft Store app (BE CAREFULL, NO WAY TO INSTALL OTHER APPS):
+Get-AppxPackage *windowsstore* | Remove-AppxPackage
