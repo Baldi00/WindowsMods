@@ -75,3 +75,5 @@ Get-AppxPackage *xboxapp* | Remove-AppxPackage
 
 Uninstall the Microsoft Store app (BE CAREFULL, NO WAY TO INSTALL OTHER APPS):
 Get-AppxPackage *windowsstore* | Remove-AppxPackage
+
+Source: https://www.action1.com/how-to-uninstall-software-using-powershell-in-windows-10/
