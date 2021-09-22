@@ -16,5 +16,6 @@
   <li>Reset Screenshot Index: set to 1 the incremental number of screenshot saved in Images</li>
   <li>Process That Prevent From Safetly Remove Drive: show the PID of the process that is preventing drive safetly remotion</li>
   <li>Some System Icons Paths: paths of dlls containing system icons, in case you want to change some icons</li>
+  <li>Uninstall Microsoft Software: uninstall pre-installed Microsoft software from Windows 10 (e.g. 3D Builder or Calculator)</li>
   <li>View Licence Expire Date: it shows the end of you Windows licence, run as administrator
 </ul>
